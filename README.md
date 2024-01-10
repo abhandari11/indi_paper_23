@@ -3,13 +3,12 @@
 Simulation Tools and Results supplementing the published articles on INDI based control law on quad-plane UAV. 
 
 ## Running the Simulations
-To run the quad-plane simulations with INDI based control architecture, one can follow these steps:
-	* Open 'config.m' and make sure 'session_v0' is the selected vehicle. 
-	* Open 'setup.m' file and Run. 
-	* It will open the Simulink model 'quadplane_sim()' with 'vms/quadplane_controlA()' as embedded control law. 
-	* Modify the trajectory commands as needed. 
-	* Hit 'Run'.
-	* General results will be exported to the workspace, or can be accessed with Scopes. 
+To run the quad-plane simulations with INDI based control architecture, one can follow these steps.
+* Open 'config.m' and make sure 'session_v0' is the selected vehicle 
+* Open 'setup.m' file and Run
+* It will open the Simulink model 'quadplane_sim()' with 'vms/quadplane_controlA()' as embedded control law
+* Modify the trajectory commands as needed 
+* Hit 'Run'
 
 <img src="https://github.com/bolderflight/spaaro/blob/main/docs/img/logo.png" alt="Logo" width="250">
 
